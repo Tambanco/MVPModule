@@ -71,11 +71,35 @@
 		49BFDD0E27DB6F2300C14C89 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				49BFDD0A27DB6F0F00C14C89 /* Model.swift */,
-				49BFDD0827DB6EEA00C14C89 /* MainViewController.swift */,
-				49BFDD0C27DB6F1E00C14C89 /* Presenter.swift */,
+				49BFDD0F27DB70F800C14C89 /* Model */,
+				49BFDD1027DB710000C14C89 /* View */,
+				49BFDD1127DB710600C14C89 /* Presenter */,
 			);
 			path = MainModule;
+			sourceTree = "<group>";
+		};
+		49BFDD0F27DB70F800C14C89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49BFDD0A27DB6F0F00C14C89 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49BFDD1027DB710000C14C89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49BFDD0827DB6EEA00C14C89 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49BFDD1127DB710600C14C89 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				49BFDD0C27DB6F1E00C14C89 /* Presenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
