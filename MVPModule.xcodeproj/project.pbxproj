@@ -71,9 +71,9 @@
 		49BFDD0E27DB6F2300C14C89 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
+				49BFDD0A27DB6F0F00C14C89 /* Model.swift */,
 				49BFDD0827DB6EEA00C14C89 /* MainViewController.swift */,
 				49BFDD0C27DB6F1E00C14C89 /* Presenter.swift */,
-				49BFDD0A27DB6F0F00C14C89 /* Model.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
