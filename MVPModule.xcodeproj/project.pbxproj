@@ -18,6 +18,10 @@
 		496EE7EE27DE1EBC003D6A85 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EE7ED27DE1EBC003D6A85 /* ModuleBuilder.swift */; };
 		496EE7F627DE20CF003D6A85 /* MVPModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EE7F527DE20CF003D6A85 /* MVPModuleTests.swift */; };
 		496EE7FD27DE2147003D6A85 /* TestMainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EE7FC27DE2147003D6A85 /* TestMainPresenter.swift */; };
+		49EB65C527DE3F2E00E54A4A /* SecondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB65C427DE3F2E00E54A4A /* SecondModel.swift */; };
+		49EB65C727DE3F3E00E54A4A /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB65C627DE3F3E00E54A4A /* SecondPresenter.swift */; };
+		49EB65DA27DE42D900E54A4A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB65D827DE42D900E54A4A /* SecondViewController.swift */; };
+		49EB65DB27DE42D900E54A4A /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EB65D927DE42D900E54A4A /* SecondView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		496EE7F327DE20CF003D6A85 /* MVPModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		496EE7F527DE20CF003D6A85 /* MVPModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPModuleTests.swift; sourceTree = "<group>"; };
 		496EE7FC27DE2147003D6A85 /* TestMainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMainPresenter.swift; sourceTree = "<group>"; };
+		49EB65C427DE3F2E00E54A4A /* SecondModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModel.swift; sourceTree = "<group>"; };
+		49EB65C627DE3F3E00E54A4A /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
+		49EB65D827DE42D900E54A4A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		49EB65D927DE42D900E54A4A /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,7 @@
 				493A6B9827DB6E7500C4466B /* SceneDelegate.swift */,
 				496EE7ED27DE1EBC003D6A85 /* ModuleBuilder.swift */,
 				496EE7E727DE1A09003D6A85 /* MainModule */,
+				49EB65C327DE3F1600E54A4A /* SecondModule */,
 				493A6B9F27DB6E7500C4466B /* Assets.xcassets */,
 				493A6BA127DB6E7500C4466B /* LaunchScreen.storyboard */,
 				493A6BA427DB6E7500C4466B /* Info.plist */,
@@ -147,6 +156,41 @@
 				496EE7FC27DE2147003D6A85 /* TestMainPresenter.swift */,
 			);
 			path = TestMainModule;
+			sourceTree = "<group>";
+		};
+		49EB65C327DE3F1600E54A4A /* SecondModule */ = {
+			isa = PBXGroup;
+			children = (
+				49EB65CD27DE404500E54A4A /* Model */,
+				49EB65CE27DE404C00E54A4A /* Presenter */,
+				49EB65D327DE406500E54A4A /* View */,
+			);
+			path = SecondModule;
+			sourceTree = "<group>";
+		};
+		49EB65CD27DE404500E54A4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49EB65C427DE3F2E00E54A4A /* SecondModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49EB65CE27DE404C00E54A4A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				49EB65C627DE3F3E00E54A4A /* SecondPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		49EB65D327DE406500E54A4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49EB65D827DE42D900E54A4A /* SecondViewController.swift */,
+				49EB65D927DE42D900E54A4A /* SecondView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +276,7 @@
 			files = (
 				496EE7EC27DE1BDB003D6A85 /* MainView.xib in Resources */,
 				493A6BA327DB6E7500C4466B /* LaunchScreen.storyboard in Resources */,
+				49EB65DB27DE42D900E54A4A /* SecondView.xib in Resources */,
 				493A6BA027DB6E7500C4466B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +298,10 @@
 				496EE7E627DE19FA003D6A85 /* MainPresenter.swift in Sources */,
 				496EE7E227DE19E5003D6A85 /* MainViewController.swift in Sources */,
 				493A6B9727DB6E7500C4466B /* AppDelegate.swift in Sources */,
+				49EB65DA27DE42D900E54A4A /* SecondViewController.swift in Sources */,
 				496EE7E427DE19F1003D6A85 /* Person.swift in Sources */,
+				49EB65C727DE3F3E00E54A4A /* SecondPresenter.swift in Sources */,
+				49EB65C527DE3F2E00E54A4A /* SecondModel.swift in Sources */,
 				493A6B9927DB6E7500C4466B /* SceneDelegate.swift in Sources */,
 				496EE7EE27DE1EBC003D6A85 /* ModuleBuilder.swift in Sources */,
 			);
