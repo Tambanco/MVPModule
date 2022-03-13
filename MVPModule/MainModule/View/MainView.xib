@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="MVPModule" customModuleProvider="target">
             <connections>
+                <outlet property="nameLabel" destination="wfK-RF-KQw" id="1eP-4i-osz"/>
+                <outlet property="nameTextField" destination="4lh-NT-VDy" id="9Iv-Ov-X5K"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,6 +31,9 @@
                     <rect key="frame" x="169" y="299" width="76" height="31"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Confirm"/>
+                    <connections>
+                        <action selector="confirmButton:" destination="-1" eventType="touchUpInside" id="smz-lq-F0N"/>
+                    </connections>
                 </button>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4lh-NT-VDy">
                     <rect key="frame" x="20" y="179" width="374" height="34"/>
