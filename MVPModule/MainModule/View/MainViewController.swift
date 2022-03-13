@@ -8,8 +8,26 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    
+    // MARK: - Outlets
+    @IBOutlet weak var greetingLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    
+    @IBAction func showGreetingAction(_ sender: UIButton) {
+        
+    }
+}
+
+// MARK: - Binding
+extension MainViewController: MainPresenterProtocol {
+    func showGreeting() {
+        <#code#>
+    }
+    
+    
 }
