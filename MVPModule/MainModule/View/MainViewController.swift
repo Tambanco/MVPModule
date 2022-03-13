@@ -9,6 +9,8 @@ import UIKit
 
 class MainViewController: UIViewController {
     
+    var presenter: MainPresenterProtocol!
+    
     // MARK: - Outlets
     @IBOutlet weak var greetingLabel: UILabel!
     
@@ -19,15 +21,13 @@ class MainViewController: UIViewController {
     
     
     @IBAction func showGreetingAction(_ sender: UIButton) {
-        
+        self.presenter.showGreeting()
     }
 }
 
 // MARK: - Binding
-extension MainViewController: MainPresenterProtocol {
-    func showGreeting() {
-        <#code#>
+extension MainViewController: MainViewProtocol {
+    func setGreeting(greeting: String) {
+        greetingLabel.text = greeting
     }
-    
-    
 }

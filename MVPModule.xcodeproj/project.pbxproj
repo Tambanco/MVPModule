@@ -15,6 +15,7 @@
 		496EE7E427DE19F1003D6A85 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EE7E327DE19F1003D6A85 /* Person.swift */; };
 		496EE7E627DE19FA003D6A85 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EE7E527DE19FA003D6A85 /* MainPresenter.swift */; };
 		496EE7EC27DE1BDB003D6A85 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496EE7EB27DE1BDB003D6A85 /* MainView.xib */; };
+		496EE7EE27DE1EBC003D6A85 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EE7ED27DE1EBC003D6A85 /* ModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		496EE7E327DE19F1003D6A85 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		496EE7E527DE19FA003D6A85 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		496EE7EB27DE1BDB003D6A85 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		496EE7ED27DE1EBC003D6A85 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				493A6B9627DB6E7500C4466B /* AppDelegate.swift */,
 				493A6B9827DB6E7500C4466B /* SceneDelegate.swift */,
+				496EE7ED27DE1EBC003D6A85 /* ModuleBuilder.swift */,
 				496EE7E727DE1A09003D6A85 /* MainModule */,
 				493A6B9F27DB6E7500C4466B /* Assets.xcassets */,
 				493A6BA127DB6E7500C4466B /* LaunchScreen.storyboard */,
@@ -181,6 +184,7 @@
 				493A6B9727DB6E7500C4466B /* AppDelegate.swift in Sources */,
 				496EE7E427DE19F1003D6A85 /* Person.swift in Sources */,
 				493A6B9927DB6E7500C4466B /* SceneDelegate.swift in Sources */,
+				496EE7EE27DE1EBC003D6A85 /* ModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +330,6 @@
 				INFOPLIST_FILE = MVPModule/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +357,6 @@
 				INFOPLIST_FILE = MVPModule/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

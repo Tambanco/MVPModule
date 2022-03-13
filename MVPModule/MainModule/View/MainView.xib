@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="MVPModule" customModuleProvider="target">
             <connections>
                 <outlet property="greetingLabel" destination="YSD-GE-ra7" id="Spn-cu-OOu"/>
+                <outlet property="view" destination="iN0-l3-epB" id="YIx-P9-FDz"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
