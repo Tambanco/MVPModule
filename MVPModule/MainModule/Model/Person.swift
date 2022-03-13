@@ -7,6 +7,7 @@
 
 import Foundation
 
-struct Name {
-    var name: String
+struct Person {
+    var firstName: String
+    var lastName: String
 }

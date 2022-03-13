@@ -9,8 +9,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     // MARK: - Outlets
-    @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var personLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,5 +18,4 @@ class MainViewController: UIViewController {
     @IBAction func confirmButton(_ sender: UIButton) {
          
     }
-    
 }
