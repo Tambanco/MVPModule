@@ -8,6 +8,9 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    
+    var presenter: MainPresenterProtocol!
+    
     // MARK: - Outlets
     @IBOutlet weak var personLabel: UILabel!
 
@@ -16,6 +19,14 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func confirmButton(_ sender: UIButton) {
-         
+        self.presenter.setGreeting()
+    }
+}
+
+
+// MARK: - Binding
+extension MainViewController: MainViewProtocol {
+    func showGreeting(greeting: String) {
+        self.personLabel.text = greeting
     }
 }

@@ -23,13 +23,13 @@ class Presenter: MainPresenterProtocol {
     var view: MainViewProtocol
     var person: Person
     
+    func setGreeting() {
+        let greeting = "Hello, \(self.person.firstName) \(self.person.lastName)"
+        self.view.showGreeting(greeting: greeting)
+    }
+    
     required init(view: MainViewProtocol, person: Person) {
         self.view = view
         self.person = person
-    }
-    
-    func setGreeting() {
-        let greeting = "Hello, \(person.firstName) \(person.lastName)"
-        self.view.showGreeting(greeting: greeting)
     }
 }
